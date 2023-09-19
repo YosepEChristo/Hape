@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.jaojao.tugaslayoutnavigasi.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.jaojao.tugaslayoutnavigasi.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.jaojao.tugaslayoutnavigasi.app-mergeDebugResources-4:/layout/fragment_jao_home.xml",
+        "source": "com.jaojao.tugaslayoutnavigasi.app-main-7:/layout/fragment_jao_home.xml"
+    },
+    {
+        "merged": "com.jaojao.tugaslayoutnavigasi.app-mergeDebugResources-4:/layout/fragment_jao_second.xml",
+        "source": "com.jaojao.tugaslayoutnavigasi.app-main-7:/layout/fragment_jao_second.xml"
+    },
+    {
+        "merged": "com.jaojao.tugaslayoutnavigasi.app-mergeDebugResources-4:/layout/fragment_jao_third.xml",
+        "source": "com.jaojao.tugaslayoutnavigasi.app-main-7:/layout/fragment_jao_third.xml"
+    }
+]

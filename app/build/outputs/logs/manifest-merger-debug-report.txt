@@ -1,0 +1,369 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.databinding:viewbinding:7.4.1] D:\SkripsiBaru\.gradle\caches\transforms-3\116db3d9efd249bff786bb533726107f\transformed\viewbinding-7.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\edfa894117f8d5fff8350068976978d0\transformed\navigation-common-2.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\d4f0fc2fd6ba33f672969d0d9f49adad\transformed\navigation-common-ktx-2.7.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\56a0f5f975c9508ec4f4abcbdc245bc2\transformed\navigation-runtime-2.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\54d1db63d23b134ce3b1d7a4ecbbdd89\transformed\navigation-ui-2.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\c8a77804bdbc6cb9cf5c7f5ab5a99aa8\transformed\navigation-runtime-ktx-2.7.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\0fc96a5ac64a0abb4cc0646cf1aa4943\transformed\navigation-ui-ktx-2.7.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\f4d20cff5a15e550f8398aa660057231\transformed\navigation-fragment-ktx-2.7.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\90768d02a597d593f3ded0859c09b447\transformed\navigation-fragment-2.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.9.0] D:\SkripsiBaru\.gradle\caches\transforms-3\3c73f4fb1f22b0874e0678d9c8eb54cd\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\SkripsiBaru\.gradle\caches\transforms-3\025e40e5e3609bd3efa3f036a5d22b49\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] D:\SkripsiBaru\.gradle\caches\transforms-3\4c2683b641bcb95509fe2661b8712887\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] D:\SkripsiBaru\.gradle\caches\transforms-3\3e0b6e4cd00ec1094432a441bef118ac\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a17c8df8eff5fd91d68a3a6b4deec79e\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0676879da9c943f965c1d69223273dc0\transformed\fragment-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] D:\SkripsiBaru\.gradle\caches\transforms-3\aff01600c1d980e2dcf810ae394440e4\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.7.1] D:\SkripsiBaru\.gradle\caches\transforms-3\180badc4b9024b90a08beba85701a2a9\transformed\activity-1.7.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.7.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2335d7988ec814ca58f549f0b62c8911\transformed\activity-ktx-1.7.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2660caa8e1f8b6265f05aaaff55a48af\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\5d369924b46cb974b206673703e6fc35\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\38d54e46337108b0e8962be7fd594022\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\fc2b2bcfaf7d5ebe3f50be3612f05f40\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] D:\SkripsiBaru\.gradle\caches\transforms-3\721629c8aa9747b25acd3b7f3697eb87\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\SkripsiBaru\.gradle\caches\transforms-3\dcca37a571dacc9c9fe18f412d71f752\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\5cc9647c39d68391a50d9affcf2b3398\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a816dbe4827e85c4a0a3014befa9a8b9\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\a7953ff37e6307819cfcc0d1ced70d4d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a77019fb66b9b43109cb59c17c3025d7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\6aa584e1a8f2d5b294f300d034aa9a84\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\bf97f3c802d736c0e34283c68888b7a2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a50d5f9a10dedc59c5b792f7af812331\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\78ec12f86e6aa9035b7e03b174da6410\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\e789588554a9261e440bd79046caf9a8\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\1387bee34b177fe812c354a71833191e\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] D:\SkripsiBaru\.gradle\caches\transforms-3\4af274aa2f66714dda27e0331cbbd060\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\0d23f57bc5fabf68f0d598ec0bda01a3\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\3a140b55025f7a2b05a3d74149a66d9b\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\56f9744623a5fd55c4f75eec5e20a514\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\660e2638702d06772dd81713b5636779\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\d0b22a54478820868d130f7187ff25f9\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7e9b056d730b780be3e1eb0ac2ad0506\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\fd35b4d0a88fc48d93d44bae566010f0\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\70c229d4855d6f4f58f8e76b5800ca68\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2984df1032e89510bdfd26769af41e54\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\eea76464974f392a795321ab89438ae2\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\a4aa7fbb1abaa741d90f2d6d053f630c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\f5cbe5f9d6c6dc9c7c243dfa09c5f2e0\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\3dac3c555a009f19ad2bc626d96ade9b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\f4968768adee87c4c6c87280eb34bf46\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2773a1f3963352a83ea05f1aa5de2745\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2e9358024726e126dd4b14b1a25c5f90\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\7feb3eaadf90aa8f8196b5264916c1c1\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\e409287bb049575d98acab4a0c1012b6\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.google.android.material:material:1.9.0] D:\SkripsiBaru\.gradle\caches\transforms-3\3c73f4fb1f22b0874e0678d9c8eb54cd\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] D:\SkripsiBaru\.gradle\caches\transforms-3\3c73f4fb1f22b0874e0678d9c8eb54cd\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\SkripsiBaru\.gradle\caches\transforms-3\025e40e5e3609bd3efa3f036a5d22b49\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\SkripsiBaru\.gradle\caches\transforms-3\025e40e5e3609bd3efa3f036a5d22b49\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\a4aa7fbb1abaa741d90f2d6d053f630c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\a4aa7fbb1abaa741d90f2d6d053f630c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2773a1f3963352a83ea05f1aa5de2745\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2773a1f3963352a83ea05f1aa5de2745\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:8:9-54
+	tools:targetApi
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:13:9-29
+	android:icon
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:12:9-57
+	android:dataExtractionRules
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.jaojao.tugaslayoutnavigasi.MainActivity
+ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:exported
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.4.1] D:\SkripsiBaru\.gradle\caches\transforms-3\116db3d9efd249bff786bb533726107f\transformed\viewbinding-7.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.1] D:\SkripsiBaru\.gradle\caches\transforms-3\116db3d9efd249bff786bb533726107f\transformed\viewbinding-7.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\edfa894117f8d5fff8350068976978d0\transformed\navigation-common-2.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\edfa894117f8d5fff8350068976978d0\transformed\navigation-common-2.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\d4f0fc2fd6ba33f672969d0d9f49adad\transformed\navigation-common-ktx-2.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\d4f0fc2fd6ba33f672969d0d9f49adad\transformed\navigation-common-ktx-2.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\56a0f5f975c9508ec4f4abcbdc245bc2\transformed\navigation-runtime-2.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\56a0f5f975c9508ec4f4abcbdc245bc2\transformed\navigation-runtime-2.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\54d1db63d23b134ce3b1d7a4ecbbdd89\transformed\navigation-ui-2.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\54d1db63d23b134ce3b1d7a4ecbbdd89\transformed\navigation-ui-2.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\c8a77804bdbc6cb9cf5c7f5ab5a99aa8\transformed\navigation-runtime-ktx-2.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\c8a77804bdbc6cb9cf5c7f5ab5a99aa8\transformed\navigation-runtime-ktx-2.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\0fc96a5ac64a0abb4cc0646cf1aa4943\transformed\navigation-ui-ktx-2.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\0fc96a5ac64a0abb4cc0646cf1aa4943\transformed\navigation-ui-ktx-2.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\f4d20cff5a15e550f8398aa660057231\transformed\navigation-fragment-ktx-2.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\f4d20cff5a15e550f8398aa660057231\transformed\navigation-fragment-ktx-2.7.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\90768d02a597d593f3ded0859c09b447\transformed\navigation-fragment-2.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.2] D:\SkripsiBaru\.gradle\caches\transforms-3\90768d02a597d593f3ded0859c09b447\transformed\navigation-fragment-2.7.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.9.0] D:\SkripsiBaru\.gradle\caches\transforms-3\3c73f4fb1f22b0874e0678d9c8eb54cd\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] D:\SkripsiBaru\.gradle\caches\transforms-3\3c73f4fb1f22b0874e0678d9c8eb54cd\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\SkripsiBaru\.gradle\caches\transforms-3\025e40e5e3609bd3efa3f036a5d22b49\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\SkripsiBaru\.gradle\caches\transforms-3\025e40e5e3609bd3efa3f036a5d22b49\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] D:\SkripsiBaru\.gradle\caches\transforms-3\4c2683b641bcb95509fe2661b8712887\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] D:\SkripsiBaru\.gradle\caches\transforms-3\4c2683b641bcb95509fe2661b8712887\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] D:\SkripsiBaru\.gradle\caches\transforms-3\3e0b6e4cd00ec1094432a441bef118ac\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] D:\SkripsiBaru\.gradle\caches\transforms-3\3e0b6e4cd00ec1094432a441bef118ac\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a17c8df8eff5fd91d68a3a6b4deec79e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a17c8df8eff5fd91d68a3a6b4deec79e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0676879da9c943f965c1d69223273dc0\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0676879da9c943f965c1d69223273dc0\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] D:\SkripsiBaru\.gradle\caches\transforms-3\aff01600c1d980e2dcf810ae394440e4\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] D:\SkripsiBaru\.gradle\caches\transforms-3\aff01600c1d980e2dcf810ae394440e4\transformed\fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.1] D:\SkripsiBaru\.gradle\caches\transforms-3\180badc4b9024b90a08beba85701a2a9\transformed\activity-1.7.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.1] D:\SkripsiBaru\.gradle\caches\transforms-3\180badc4b9024b90a08beba85701a2a9\transformed\activity-1.7.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2335d7988ec814ca58f549f0b62c8911\transformed\activity-ktx-1.7.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2335d7988ec814ca58f549f0b62c8911\transformed\activity-ktx-1.7.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2660caa8e1f8b6265f05aaaff55a48af\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2660caa8e1f8b6265f05aaaff55a48af\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\5d369924b46cb974b206673703e6fc35\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\5d369924b46cb974b206673703e6fc35\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\38d54e46337108b0e8962be7fd594022\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\38d54e46337108b0e8962be7fd594022\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\fc2b2bcfaf7d5ebe3f50be3612f05f40\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\fc2b2bcfaf7d5ebe3f50be3612f05f40\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] D:\SkripsiBaru\.gradle\caches\transforms-3\721629c8aa9747b25acd3b7f3697eb87\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] D:\SkripsiBaru\.gradle\caches\transforms-3\721629c8aa9747b25acd3b7f3697eb87\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\SkripsiBaru\.gradle\caches\transforms-3\dcca37a571dacc9c9fe18f412d71f752\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\SkripsiBaru\.gradle\caches\transforms-3\dcca37a571dacc9c9fe18f412d71f752\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\5cc9647c39d68391a50d9affcf2b3398\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\5cc9647c39d68391a50d9affcf2b3398\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a816dbe4827e85c4a0a3014befa9a8b9\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a816dbe4827e85c4a0a3014befa9a8b9\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\a7953ff37e6307819cfcc0d1ced70d4d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\a7953ff37e6307819cfcc0d1ced70d4d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a77019fb66b9b43109cb59c17c3025d7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a77019fb66b9b43109cb59c17c3025d7\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\6aa584e1a8f2d5b294f300d034aa9a84\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\6aa584e1a8f2d5b294f300d034aa9a84\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\bf97f3c802d736c0e34283c68888b7a2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\bf97f3c802d736c0e34283c68888b7a2\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a50d5f9a10dedc59c5b792f7af812331\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\a50d5f9a10dedc59c5b792f7af812331\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\78ec12f86e6aa9035b7e03b174da6410\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\78ec12f86e6aa9035b7e03b174da6410\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\e789588554a9261e440bd79046caf9a8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\e789588554a9261e440bd79046caf9a8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\1387bee34b177fe812c354a71833191e\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] D:\SkripsiBaru\.gradle\caches\transforms-3\1387bee34b177fe812c354a71833191e\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] D:\SkripsiBaru\.gradle\caches\transforms-3\4af274aa2f66714dda27e0331cbbd060\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] D:\SkripsiBaru\.gradle\caches\transforms-3\4af274aa2f66714dda27e0331cbbd060\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\0d23f57bc5fabf68f0d598ec0bda01a3\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\0d23f57bc5fabf68f0d598ec0bda01a3\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\3a140b55025f7a2b05a3d74149a66d9b\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\3a140b55025f7a2b05a3d74149a66d9b\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\56f9744623a5fd55c4f75eec5e20a514\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\56f9744623a5fd55c4f75eec5e20a514\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\660e2638702d06772dd81713b5636779\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\660e2638702d06772dd81713b5636779\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\d0b22a54478820868d130f7187ff25f9\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\d0b22a54478820868d130f7187ff25f9\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7e9b056d730b780be3e1eb0ac2ad0506\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7e9b056d730b780be3e1eb0ac2ad0506\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\fd35b4d0a88fc48d93d44bae566010f0\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\fd35b4d0a88fc48d93d44bae566010f0\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\70c229d4855d6f4f58f8e76b5800ca68\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\70c229d4855d6f4f58f8e76b5800ca68\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2984df1032e89510bdfd26769af41e54\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2984df1032e89510bdfd26769af41e54\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\eea76464974f392a795321ab89438ae2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\eea76464974f392a795321ab89438ae2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\a4aa7fbb1abaa741d90f2d6d053f630c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\a4aa7fbb1abaa741d90f2d6d053f630c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\f5cbe5f9d6c6dc9c7c243dfa09c5f2e0\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\f5cbe5f9d6c6dc9c7c243dfa09c5f2e0\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\3dac3c555a009f19ad2bc626d96ade9b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\3dac3c555a009f19ad2bc626d96ade9b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\f4968768adee87c4c6c87280eb34bf46\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\f4968768adee87c4c6c87280eb34bf46\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2773a1f3963352a83ea05f1aa5de2745\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2773a1f3963352a83ea05f1aa5de2745\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2e9358024726e126dd4b14b1a25c5f90\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2e9358024726e126dd4b14b1a25c5f90\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\7feb3eaadf90aa8f8196b5264916c1c1\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\7feb3eaadf90aa8f8196b5264916c1c1\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\e409287bb049575d98acab4a0c1012b6\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\e409287bb049575d98acab4a0c1012b6\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kuliah\PAPB\TugasLayoutNavigasi\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2773a1f3963352a83ea05f1aa5de2745\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\SkripsiBaru\.gradle\caches\transforms-3\2773a1f3963352a83ea05f1aa5de2745\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] D:\SkripsiBaru\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] D:\SkripsiBaru\.gradle\caches\transforms-3\2583efbc42003ff80e01466bf2f32ea1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.jaojao.tugaslayoutnavigasi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.jaojao.tugaslayoutnavigasi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] D:\SkripsiBaru\.gradle\caches\transforms-3\b3be5a6d59a288b5e4126f50fb8c7846\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\SkripsiBaru\.gradle\caches\transforms-3\7ca01e48d89250c441c5bb648089610f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] D:\SkripsiBaru\.gradle\caches\transforms-3\0c95a5abecf35d6cf9fabdc723fd3e62\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
