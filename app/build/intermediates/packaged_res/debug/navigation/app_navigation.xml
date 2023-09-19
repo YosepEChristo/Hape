@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.jaojao.tugaslayoutnavigasi.JaoHomeFragment"
+        tools:layout="@layout/fragment_jao_home">
+        <action
+            android:id="@+id/action_home_to_second_frag"
+            app:destination="@id/secondFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.jaojao.tugaslayoutnavigasi.JaoSecondFragment"
+        tools:layout="@layout/fragment_jao_second">
+        <action
+            android:id="@+id/action_second_to_third_frag"
+            app:destination="@id/thirdFragment"/>
+        <action
+            android:id="@+id/action_second_to_home"
+            app:destination="@id/homeFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.jaojao.tugaslayoutnavigasi.JaoThirdFragment"
+        tools:layout="@layout/fragment_jao_third">
+        <action
+            android:id="@+id/action_third_to_second"
+            app:destination="@id/secondFragment"/>
+    </fragment>
+
+</navigation>
