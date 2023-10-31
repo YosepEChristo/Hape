@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Ngampus Aman</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_template">Template</string>
+    <string name="title_send">Send</string>
+    <string name="needs">Pilih Kebutuhan</string>
+    <string name="sendmail">Kirim Surat</string>
+    <string name="lettertermplate">Template Surat</string>
 </resources>
