@@ -43,8 +43,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv_one"
-                android:layout_width="@dimen/_115sdp"
-                android:layout_height="@dimen/_115sdp"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
                 android:layout_margin="@dimen/_8ssp"
                 android:layout_marginTop="8dp"
                 app:cardBackgroundColor="@color/white"
@@ -59,8 +59,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv_two"
-                android:layout_width="@dimen/_115sdp"
-                android:layout_height="@dimen/_115sdp"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
                 android:layout_margin="@dimen/_8ssp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="@dimen/_8ssp"
@@ -74,8 +74,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv_three"
-                android:layout_width="@dimen/_115sdp"
-                android:layout_height="@dimen/_115sdp"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
                 android:layout_marginTop="@dimen/_13sdp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="@dimen/_8ssp"
@@ -90,8 +90,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv_four"
-                android:layout_width="@dimen/_115sdp"
-                android:layout_height="@dimen/_115sdp"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
                 android:layout_margin="@dimen/_8ssp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="@dimen/_8ssp"
