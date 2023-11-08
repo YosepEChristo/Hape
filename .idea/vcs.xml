@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Hape" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/PAPB2023_2-1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/PAW-BE" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/karhutla" vcs="Git" />
   </component>
 </project>
