@@ -54,6 +54,20 @@
                 app:layout_constraintHorizontal_chainStyle="packed"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/motto">
+                <ImageView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_add_512"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New"
+                    android:fontFamily="@font/sora"
+                    android:textColor="@color/brown"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_65sdp"/>
             </androidx.cardview.widget.CardView>
 
 
@@ -68,7 +82,20 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/cv_one"
                 app:layout_constraintTop_toBottomOf="@id/motto">
-
+                <ImageView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_faq_512"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FAQ"
+                    android:fontFamily="@font/sora"
+                    android:textColor="@color/brown"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_65sdp"/>
             </androidx.cardview.widget.CardView>
 
 
@@ -84,6 +111,20 @@
                 app:layout_constraintHorizontal_chainStyle="packed"
                 app:layout_constraintStart_toStartOf="@id/cv_one"
                 app:layout_constraintTop_toBottomOf="@id/cv_one">
+                <ImageView
+                    android:layout_width="@dimen/_68sdp"
+                    android:layout_height="@dimen/_68sdp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_cs_512"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:fontFamily="@font/sora"
+                    android:textColor="@color/brown"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_65sdp"/>
 
             </androidx.cardview.widget.CardView>
 
@@ -100,6 +141,20 @@
                 app:layout_constraintEnd_toEndOf="@id/cv_two"
                 app:layout_constraintStart_toStartOf="@id/cv_two"
                 app:layout_constraintTop_toTopOf="@id/cv_three">
+                <ImageView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_about_512"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:fontFamily="@font/sora"
+                    android:textColor="@color/brown"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_65sdp"/>
             </androidx.cardview.widget.CardView>
 
 
