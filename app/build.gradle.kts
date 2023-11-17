@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 }
 
 android {
@@ -55,4 +56,9 @@ dependencies {
 
     //gif
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.17")
+
+    //room
+    implementation ("androidx.room:room-runtime:2.6.0")
+    annotationProcessor ("androidx.room:room-compiler:2.6.0")
+    kapt ("androidx.room:room-compiler:2.6.0")
 }
