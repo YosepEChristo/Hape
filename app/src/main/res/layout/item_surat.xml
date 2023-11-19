@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fu_one"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_110sdp"
+    android:layout_marginStart="@dimen/_2ssp"
+    android:layout_marginEnd="@dimen/_2ssp"
+    android:background="@drawable/border_backgroud"
+    android:elevation="@dimen/_4sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_judul_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/sora"
+        android:text="@string/sakit"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_keterangan_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_23sdp"
+
+        android:layout_marginEnd="@dimen/_43sdp"
+        android:fontFamily="@font/sora"
+        android:text="@string/template"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="normal">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_tombol_item"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_210sdp"
+        android:layout_marginTop="@dimen/_75sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/brown"
+        app:cardCornerRadius="@dimen/_8ssp"
+        app:cardElevation="@dimen/_4ssp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_add_white_24" />
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
