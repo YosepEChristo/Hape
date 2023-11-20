@@ -1,10 +1,13 @@
-package com.example.ngampusaman.data
+package com.example.ngampusaman.model
 
+import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import kotlinx.parcelize.Parcelize
 
 
-@Entity(tableName = "suratIzin_table")
+@Parcelize
+@Entity(tableName = "surat_izin_database")
 data class SuratIzin(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
@@ -22,6 +25,4 @@ data class SuratIzin(
     val HariTabel: String,
     val JamTabel: String,
     val Ruang: String
-) {
-    fun getId(): Int = id
-}
+) : Parcelable

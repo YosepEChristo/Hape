@@ -1,23 +1,20 @@
 package com.example.ngampusaman.data
 
+import androidx.lifecycle.LiveData
+import com.example.ngampusaman.model.SuratIzin
+
 class SuratIzinRepository(private val suratIzinDao: SuratIzinDao) {
-    fun insert(suratIzin: SuratIzin) {
+    val readAllSuratIzin: LiveData<List<SuratIzin>> = suratIzinDao.getAll()
+
+    suspend fun insert(suratIzin: SuratIzin) {
         suratIzinDao.insert(suratIzin)
     }
 
-     fun insertAll(vararg suratIzin: SuratIzin) {
-        suratIzinDao.insertAll(*suratIzin)
+    suspend fun update(suratIzin: SuratIzin) {
+        suratIzinDao.update(suratIzin)
     }
 
-     fun delete(suratIzin: SuratIzin) {
+    suspend fun delete(suratIzin: SuratIzin) {
         suratIzinDao.delete(suratIzin)
-    }
-
-     fun get(uid: Int): SuratIzin {
-        return suratIzinDao.get(uid)
-    }
-
-     fun getAll(): List<SuratIzin> {
-        return suratIzinDao.getAll()
     }
 }
