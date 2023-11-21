@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PAPB2023_2"
+rootProject.name = "NgampusAman"
 include(":app")
  
