@@ -6,6 +6,7 @@
     android:layout_height="@dimen/_110sdp"
     android:layout_marginStart="@dimen/_2ssp"
     android:layout_marginEnd="@dimen/_2ssp"
+    android:layout_marginBottom="@dimen/_5sdp"
     android:background="@drawable/border_backgroud"
     android:elevation="@dimen/_4sdp"
     android:orientation="vertical">
