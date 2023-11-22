@@ -55,9 +55,10 @@
         android:layout_marginEnd="@dimen/_10sdp"
         android:layout_weight="1">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <FrameLayout
                 android:id="@+id/faq_q1"
@@ -139,7 +140,7 @@
 
             <!-- Favorite used -->
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
     </ScrollView>
 
 </LinearLayout>
