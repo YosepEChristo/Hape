@@ -61,384 +61,400 @@
         android:layout_marginStart="@dimen/_26sdp"/>
 
 
-    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp">
 
-        <FrameLayout
-            android:id="@+id/frameLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginTop="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="Bapak/Ibu"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nama Lengkap"
-                android:textStyle="bold"
-                android:fontFamily="@font/sora"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginStart="@dimen/_2sdp"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"/>
-        </FrameLayout>
-
-
-
-
-
-
-
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mata Kuliah"
-                android:textStyle="bold"
-                android:fontFamily="@font/sora"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginStart="@dimen/_2sdp"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-
-        </FrameLayout>
-
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nama Lengkap"
-                android:textStyle="bold"
-                android:fontFamily="@font/sora"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginStart="@dimen/_2sdp"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"/>
-        </FrameLayout>
-
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="NIM"
-                android:textStyle="bold"
-                android:fontFamily="@font/sora"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginStart="@dimen/_2sdp"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"/>
-        </FrameLayout>
-
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="No.HP"
-                android:textStyle="bold"
-                android:fontFamily="@font/sora"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginStart="@dimen/_2sdp"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"/>
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="Prodi"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="Sebab Izin"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="Durasi hari"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="Tanggal Mulai"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="Tanggal Selesai"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="Tanggal Surat"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="HARI"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="JAM"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:layout_margin="@dimen/_25sdp">
-
-            </FrameLayout>
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/sora"
-                android:text="RUANG"
-                android:textSize="@dimen/_10sdp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:inputType="text"
-                android:textSize="@dimen/_10sdp" />
-
-        </FrameLayout>
-
-        <androidx.cardview.widget.CardView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
+            <FrameLayout
+                android:id="@+id/dosenLayout"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:text="Simpan" />
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toTopOf="parent">
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="Bapak/Ibu"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/matkulLayout"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:text="Button" />
-        </androidx.cardview.widget.CardView>
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/dosenLayout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mata Kuliah"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sora"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_2sdp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/namaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/matkulLayout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Lengkap"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sora"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_2sdp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/nimLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/namaLayout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NIM"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sora"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_2sdp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/hpLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/nimLayout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No.HP"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sora"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_2sdp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/prodiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/hpLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="Prodi"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/sebabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/prodiLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="Sebab Izin"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/durasiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/sebabLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="Durasi hari"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/tanggalMulaiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/durasiLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="Tanggal Mulai"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/tanggalSelesaiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/tanggalMulaiLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="Tanggal Selesai"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/tanggalSuratLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/tanggalSelesaiLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="Tanggal Surat"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/hariLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/tanggalSuratLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="HARI"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/jamLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/hariLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="JAM"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="@dimen/_25sdp">
+
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ruangLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/jamLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="RUANG"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:inputType="text"
+                    android:textSize="@dimen/_10sdp" />
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tombolformLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@id/ruangLayout">
+
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="174dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left"
+
+                    android:text="Simpan" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="174dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:text="Kirim Sekarang" />
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
 
 
 </LinearLayout>

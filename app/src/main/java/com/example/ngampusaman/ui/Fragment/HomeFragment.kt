@@ -21,9 +21,9 @@ class HomeFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        val recyclerViewItem = requireView().findViewById<RecyclerView>(R.id.rv_item_surat)
-        val daftarJudul = arrayOf<String>("Surat 1", "Surat 2", "Surat 3")
-        val daftarKeterangan = arrayOf<String>("Keterangan 1", "Keterangan 2", "Keterangan 3")
+        val recyclerViewItem = requireView().findViewById<RecyclerView>(R.id.rv_most_liked)
+        val daftarJudul = arrayOf<String>("Surat Izin Sakit", "Surat Pengunduran Diri", "Surat Ingin Menikah")
+        val daftarKeterangan = arrayOf<String>("Ketika Mahasiswa tidak enak badan dan direkomendasikan pihak medis untuk beristirahat", "Ketika Capek Kuliah DO Solusinya", "Jomblo jangan tekan ini")
 
         val suratAdapter = SuratAdapter(daftarJudul, daftarKeterangan)
         recyclerViewItem.apply {
