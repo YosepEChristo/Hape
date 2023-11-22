@@ -132,7 +132,7 @@
                     android:id="@+id/imageAnggota1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@tools:sample/avatars" />
+                    android:src="@mipmap/ic_launcher" />
             </FrameLayout>
 
             <FrameLayout
@@ -156,7 +156,7 @@
                     android:id="@+id/imageAnggota2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@tools:sample/avatars" />
+                    android:src="@mipmap/ic_launcher" />
             </FrameLayout>
 
             <FrameLayout
@@ -180,7 +180,7 @@
                     android:id="@+id/imageAnggota3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@tools:sample/avatars" />
+                    android:src="@mipmap/ic_launcher" />
             </FrameLayout>
 
 
