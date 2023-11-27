@@ -1,13 +1,18 @@
 package com.example.ngampusaman.ui.Fragment
 
+import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.cardview.widget.CardView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ngampusaman.R
+import com.example.ngampusaman.ui.Activity.IzinFormActivity
+import kotlin.coroutines.coroutineContext
 
 class SuratAdapter(private val dataJudul: Array<String>, private val dataKeterangan: Array<String>) :RecyclerView.Adapter<SuratAdapter.ViewHolder>() {
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -35,7 +40,9 @@ class SuratAdapter(private val dataJudul: Array<String>, private val dataKeteran
         viewHolder.tvKeteranganItem.text = dataKeterangan[position]
 
         viewHolder.cvTombolItem.setOnClickListener {
-            Toast.makeText(it.context, "Posisi ke ${position}", Toast.LENGTH_SHORT).show()
+            val intent = Intent(viewHolder.itemView.context, IzinFormActivity::class.java)
+            intent.putExtra("key","value")
+            viewHolder.itemView.context.startActivities(arrayOf(intent))
         }
     }
 }

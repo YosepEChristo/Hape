@@ -18,7 +18,7 @@
             app:destination="@id/aboutusFragment" />
         <action
             android:id="@+id/action_homeFragment_to_contactus"
-            app:destination="@id/contactus" />
+            app:destination="@id/contactusFragment" />
         <action
             android:id="@+id/action_homeFragment_to_templateFragment"
             app:destination="@id/templateFragment" />
@@ -44,8 +44,14 @@
         android:label="fragment_about_us"
         tools:layout="@layout/fragment_about_us"/>
     <fragment
-        android:id="@+id/contactus"
+        android:id="@+id/contactusFragment"
         android:name="com.example.ngampusaman.ui.Fragment.ContactUsFragment"
         android:label="fragment_contact_us"
         tools:layout="@layout/fragment_contact_us"/>
+    <fragment
+        android:id="@+id/izinformFragment"
+        android:name="com.example.ngampusaman.ui.Fragment.IzinFormFragment"
+        android:label="fragment_izin_form"
+        tools:layout="@layout/fragment_izin_form"/>
+
 </navigation>
