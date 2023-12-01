@@ -69,8 +69,8 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.0")
 
     //docx
-    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
-    implementation group: 'org.apache.xmlbeans', name: 'xmlbeans', version: '3.1.0'
-    implementation 'javax.xml.stream:stax-api:1.0'
-    implementation 'com.fasterxml:aalto-xml:1.2.2'
+    implementation ("org.apache.poi:poi:5.2.0")
+    implementation ("org.apache.poi:poi-ooxml:5.2.0")
+    implementation ("javax.xml.stream:stax-api:1.0")
+    implementation ("com.fasterxml:aalto-xml:1.2.2")
 }
