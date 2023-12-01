@@ -33,14 +33,14 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/faq_judul"
+            android:id="@+id/faq_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_30sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginBottom="@dimen/_15sdp"
             android:fontFamily="@font/sora"
-            android:text="Frequently Asked Questions\n(FAQ)"
+            android:text="@string/faq_title"
             android:textSize="@dimen/_15ssp"
             android:textStyle="bold" />
     </FrameLayout>
@@ -69,7 +69,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="1. Apa itu NgampusAman?"
+                    android:text="@string/faq_1a"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold" />
@@ -80,7 +80,7 @@
                     android:layout_marginTop="@dimen/_20sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="NgampusAman adalah aplikasi mobile yang dirancang untuk mempermudah pengguna dalam membuat surat izin dengan cara mengisi formulir, dan kemudian mengonversinya menjadi dokumen PDF."
+                    android:text="@string/faq_1b"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -95,7 +95,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="2. Bagaimana cara menggunakan NgampusAman?"
+                    android:text="@string/faq_2a"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold" />
@@ -106,7 +106,7 @@
                     android:layout_marginTop="@dimen/_35sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="Unduh aplikasi, pilih jenis surat izin yang diinginkan, isi formulir yang tersedia, dan hasilnya akan dihasilkan dalam format PDF."
+                    android:text="@string/faq_2b"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -121,7 +121,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="3. Apa kelebihan NgampusAman dibandingkan dengan cara tradisional membuat surat izin?"
+                    android:text="@string/faq_3a"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold" />
@@ -132,7 +132,7 @@
                     android:layout_marginTop="@dimen/_50sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="NgampusAman memungkinkan pengguna membuat surat izin dengan lebih efisien dan cepat melalui pengisian formulir, tanpa perlu mengedit manual menggunakan word editor."
+                    android:text="@string/faq_3b"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -147,7 +147,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="4. Apakah saya bisa melihat pratinjau surat izin sebelum mengunduhnya?"
+                    android:text="@string/faq_4a"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold" />
@@ -158,7 +158,7 @@
                     android:layout_marginTop="@dimen/_35sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="Ya, NgampusAman menyediakan pratinjau surat izin sebelum Anda mengonfirmasi untuk mengunduhnya."
+                    android:text="@string/faq_4b"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -173,7 +173,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="5. Bagaimana keamanan data pengguna dijamin dalam NgampusAman?"
+                    android:text="@string/faq_5a"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold" />
@@ -184,7 +184,7 @@
                     android:layout_marginTop="@dimen/_35sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="NgampusAman hanya menggunakan informasi dalam pembuatan surat dan tidak dibagikan dengan pihak ketiga."
+                    android:text="@string/faq_5b"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>

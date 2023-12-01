@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_about_512_background">#FFFFFF</color>
+    <string name="about_title">Project NgampusAman</string>
+    <string name="about_desc1">Aplikasi ini merupakan project Mobile Development kelompok 2, yang dibuat dengan tujuan menjadi alat pembantu kegiatan persuratan yang mempermudah pengisian dokumen yang sudah diberi template dan tinggal diisi dalam bentuk form.</string>
+    <string name="about_desc2">Mottonya adalah merasa nyaman apabila harus berhubungan dengan dokumen kampus dalam hal mencari dan menggunakan karena sudah diberikan penjelasan penggunaan dan menyederhanakan pengisian dokumen yang templatenya sudah diberikan.</string>
+    <string name="about_dev1">yosepgg</string>
+    <string name="about_dev2">aditya</string>
+    <string name="about_dev3">damiosdam</string>
 </resources>

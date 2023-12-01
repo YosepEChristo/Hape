@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_faq_512_background">#FFFFFF</color>
+    <string name="faq_title">Frequently Asked Questions\n(FAQ)</string>
+
+    <string name="faq_1a">1. Apa itu NgampusAman?</string>
+    <string name="faq_1b">NgampusAman adalah aplikasi mobile yang dirancang untuk mempermudah pengguna dalam membuat surat izin dengan cara mengisi formulir, dan kemudian mengonversinya menjadi dokumen PDF.</string>
+    <string name="faq_2a">2. Bagaimana cara menggunakan NgampusAman?</string>
+    <string name="faq_2b">Unduh aplikasi, pilih jenis surat izin yang diinginkan, isi formulir yang tersedia, dan hasilnya akan dihasilkan dalam format PDF.</string>
+    <string name="faq_3a">3. Apa kelebihan NgampusAman dibandingkan dengan cara tradisional membuat surat izin?</string>
+    <string name="faq_3b">NgampusAman memungkinkan pengguna membuat surat izin dengan lebih efisien dan cepat melalui pengisian formulir, tanpa perlu mengedit manual menggunakan word editor.</string>
+    <string name="faq_4a">4. Apakah saya bisa melihat pratinjau surat izin sebelum mengunduhnya?</string>
+    <string name="faq_4b">Ya, NgampusAman menyediakan pratinjau surat izin sebelum Anda mengonfirmasi untuk mengunduhnya.</string>
+    <string name="faq_5a">5. Bagaimana keamanan data pengguna dijamin dalam NgampusAman?</string>
+    <string name="faq_5b">NgampusAman hanya menggunakan informasi dalam pembuatan surat dan tidak dibagikan dengan pihak ketiga.</string>
 </resources>

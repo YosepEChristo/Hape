@@ -40,7 +40,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginBottom="@dimen/_15sdp"
             android:fontFamily="@font/sora"
-            android:text="Contact Us at.."
+            android:text="@string/contact_title"
             android:textSize="@dimen/_20ssp"
             android:textStyle="bold" />
     </FrameLayout>
@@ -71,7 +71,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="Berikan masukkan dan apabila ingin dokumen tertentu, request lewat email ya."
+                    android:text="@string/contact_desc"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -87,7 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="Masukkan anda sangat diapresiasi"
+                    android:text="@string/contact_note"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold"
@@ -106,7 +106,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="ngampusaman@gmail.com"
+                    android:text="@string/contact_email"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_cs_512_background">#FFFFFF</color>
+    <string name="contact_title">Contact Us at..</string>
+    <string name="contact_desc">Berikan masukkan dan apabila ingin dokumen tertentu, request lewat email ya.</string>
+    <string name="contact_note">Masukkan anda sangat diapresiasi</string>
+    <string name="contact_email">ngampusaman@gmail.com</string>
 </resources>
