@@ -69,7 +69,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="1. KENAPA INI APLIKASI DIBUAT ?????"
+                    android:text="1. Apa itu NgampusAman?"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold" />
@@ -80,7 +80,7 @@
                     android:layout_marginTop="@dimen/_20sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="tugas bosque, simpel dan berguna. kalo ada pertanyaan yang lebih bermakna, tolong lah ya."
+                    android:text="NgampusAman adalah aplikasi mobile yang dirancang untuk mempermudah pengguna dalam membuat surat izin dengan cara mengisi formulir, dan kemudian mengonversinya menjadi dokumen PDF."
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -95,7 +95,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="2. Kenapa pertanyaan pertama nyolot ?"
+                    android:text="2. Bagaimana cara menggunakan NgampusAman?"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold" />
@@ -103,10 +103,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_35sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="gatau, ekstrim juga tu orang."
+                    android:text="Unduh aplikasi, pilih jenis surat izin yang diinginkan, isi formulir yang tersedia, dan hasilnya akan dihasilkan dalam format PDF."
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -121,7 +121,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sora"
-                    android:text="3. jadi ini buat test aja"
+                    android:text="3. Apa kelebihan NgampusAman dibandingkan dengan cara tradisional membuat surat izin?"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold" />
@@ -129,10 +129,62 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_50sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="ini buat apa sih ?"
+                    android:text="NgampusAman memungkinkan pengguna membuat surat izin dengan lebih efisien dan cepat melalui pengisian formulir, tanpa perlu mengedit manual menggunakan word editor."
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/faq_q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/faq_q3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sora"
+                    android:text="4. Apakah saya bisa melihat pratinjau surat izin sebelum mengunduhnya?"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_35sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="Ya, NgampusAman menyediakan pratinjau surat izin sebelum Anda mengonfirmasi untuk mengunduhnya."
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/faq_q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/faq_q4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sora"
+                    android:text="5. Bagaimana keamanan data pengguna dijamin dalam NgampusAman?"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_35sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:fontFamily="@font/sora"
+                    android:text="NgampusAman hanya menggunakan informasi dalam pembuatan surat dan tidak dibagikan dengan pihak ketiga."
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
@@ -142,5 +194,7 @@
 
         </LinearLayout>
     </ScrollView>
+
+
 
 </LinearLayout>

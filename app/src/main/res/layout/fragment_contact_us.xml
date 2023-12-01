@@ -71,7 +71,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginBottom="@dimen/_15sdp"
                     android:fontFamily="@font/sora"
-                    android:text="Berikan masukkan dan saran lewat email ya."
+                    android:text="Berikan masukkan dan apabila ingin dokumen tertentu, request lewat email ya."
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
             </FrameLayout>
