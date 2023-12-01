@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fu_one"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_110sdp"
+    android:layout_marginStart="@dimen/_2ssp"
+    android:layout_marginEnd="@dimen/_2ssp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:background="@drawable/border_backgroud"
+    android:elevation="@dimen/_4sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_judul_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/sora"
+        android:text="Surat Izin ke id"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_nama_lengkap_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+
+        android:layout_marginEnd="@dimen/_43sdp"
+        android:fontFamily="@font/sora"
+        android:text="Nama Lengkap"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="normal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_nim_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+
+        android:layout_marginEnd="@dimen/_43sdp"
+        android:fontFamily="@font/sora"
+        android:text="NIM"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="normal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_alasan_izin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+
+        android:layout_marginEnd="@dimen/_43sdp"
+        android:fontFamily="@font/sora"
+        android:text="Alasan Izin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="normal">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_edit_item_izin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_gravity="end"
+        android:text="Edit"/>
+
+</LinearLayout>

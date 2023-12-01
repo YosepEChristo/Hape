@@ -1,6 +1,8 @@
 package com.example.ngampusaman.model
 
 import android.content.Context
+import android.util.Log
+import android.widget.Toast
 import com.example.ngampusaman.R
 import org.apache.poi.xwpf.usermodel.XWPFDocument
 import java.io.*
@@ -8,18 +10,18 @@ import java.io.*
 class SuratIzinDocx(private val name: String, private val ourAppFileDirectory: File, private val context: Context, private val dataSurat:List<String>) {
     private var ourWordDoc: XWPFDocument = XWPFDocument()
 
-    private val daftarGanti = context.resources.getStringArray(R.array.daftar_nama)
+    private val daftarGanti = listOf("\$NAMA_DOSEN\$", "\$MATA_KULIAH\$", "\$NAMA_LENGKAP\$", "\$NIM\$", "\$NO_TELP\$", "\$PRODI\$", "\$ALASAN\$", "\$JUMLAH_HARI\$", "\$TGL_AWAL\$", "\$TGL_AKHIR\$", "\$TGL_DIBUAT\$", "\$HARI_TABEL\$", "\$JAM_TABEL\$", "\$RUANG_TABEL\$")
 
     fun loadDoc() : InputStream? {
+
         ourAppFileDirectory.let {
             if (it.exists()) {
-                return context.assets.open("permohonanSuratIzin.docx")
+                return context.assets.open("permIzinKuliah.docx")
             }
         }
 
         return null
     }
-
 
     fun editDoc() {
         loadDoc().let {
@@ -27,18 +29,16 @@ class SuratIzinDocx(private val name: String, private val ourAppFileDirectory: F
                 val doc = XWPFDocument(it)
 
                 for (p in doc.paragraphs) {
+
                     val runs = p.runs
                     if (runs != null) {
                         for (r in runs) {
-                            fun checkAndReplace(text: String, oldVal: String, newVal: String) {
-                                val ubahText = text.replace(oldVal, newVal)
-                                r.setText(ubahText, 0)
-                            }
-                            val text = r.getText(0)
+                            var text = r.getText(0)
                             if (text != null)
                                 daftarGanti.forEachIndexed { index, ganti ->
                                     if (text.contains(ganti)) {
-                                        checkAndReplace(text, ganti, dataSurat[index])
+                                        text = text.replace(ganti, dataSurat[index])
+                                        r.setText(text, 0)
                                     }
                                 }
                         }
@@ -49,15 +49,12 @@ class SuratIzinDocx(private val name: String, private val ourAppFileDirectory: F
                         for (cell in row.tableCells) {
                             for (p in cell.paragraphs) {
                                 for (r in p.runs) {
-                                    fun checkAndReplace(text: String, oldVal: String, newVal: String) {
-                                        val ubahText = text.replace(oldVal, newVal)
-                                        r.setText(ubahText, 0)
-                                    }
-                                    val text = r.getText(0)
+                                    var text = r.getText(0)
                                     if (text != null)
                                         daftarGanti.forEachIndexed { index, ganti ->
                                             if (text.contains(ganti)) {
-                                                checkAndReplace(text, ganti, dataSurat[index])
+                                                text = text.replace(ganti, dataSurat[index])
+                                                r.setText(text, 0)
                                             }
                                         }
                                 }

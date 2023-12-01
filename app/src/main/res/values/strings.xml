@@ -1,18 +1,3 @@
 <resources>
-    <string-array name="daftar_nama">
-        <item>!!NAMA_DOSEN!!</item>
-        <item>!!MATA_KULIAH!!</item>
-        <item>!!NAMA_LENGKAP!!</item>
-        <item>!!NIM!!</item>
-        <item>!!NO_TELP!!</item>
-        <item>!!PROD!!</item>
-        <item>!!ALASAN!!</item>
-        <item>!!JUMLAH_HARI!!</item>
-        <item>!!TGL_AWAL!!</item>
-        <item>!!TGL_AKHIR!!</item>
-        <item>!!TGL_DIBUAT!!</item>
-        <item>!!HARI_TABEL!!</item>
-        <item>!!JAM_TABEL!!</item>
-        <item>!!RUANG_TABEL!!</item>
-    </string-array>
+
 </resources>

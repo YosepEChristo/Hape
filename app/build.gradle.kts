@@ -63,14 +63,14 @@ dependencies {
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.17")
 
     //room
-    implementation ("androidx.room:room-runtime:2.6.0")
-    annotationProcessor ("androidx.room:room-compiler:2.6.0")
-    kapt ("androidx.room:room-compiler:2.6.0")
-    implementation("androidx.room:room-ktx:2.6.0")
+    implementation ("androidx.room:room-runtime:2.6.1")
+    annotationProcessor ("androidx.room:room-compiler:2.6.1")
+    kapt ("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
 
     //docx
-    implementation ("org.apache.poi:poi:5.2.0")
-    implementation ("org.apache.poi:poi-ooxml:5.2.0")
-    implementation ("javax.xml.stream:stax-api:1.0")
-    implementation ("com.fasterxml:aalto-xml:1.2.2")
+    implementation ("org.apache.poi:poi-ooxml:3.17")
+    implementation ("org.apache.xmlbeans:xmlbeans:3.1.0")
+    implementation ("com.fasterxml:aalto-xml:1.3.2")
+    implementation ("javax.xml.stream:stax-api:1.0-2")
 }
