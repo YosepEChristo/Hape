@@ -1,7 +1,7 @@
 package com.example.ngampusaman.model
 
 import android.content.Context
-import android.os.Build.VERSION_CODES.R
+import com.example.ngampusaman.R
 import org.apache.poi.xwpf.usermodel.XWPFDocument
 import java.io.*
 
@@ -73,13 +73,10 @@ class SuratIzinDocx(private val name: String, private val ourAppFileDirectory: F
         }
     }
 
-    fun saveDoc() {
+    fun saveDoc(lokasiFile: File) {
         //Check whether it exists or not, and create one if it does not exist.
-        if (!ourAppFileDirectory.exists()) {
-            ourAppFileDirectory.mkdirs()
-        }
 
-        val wordFile = File(ourAppFileDirectory, "${name}.docx")
+        val wordFile = File(lokasiFile, "${name}.docx")
         try {
             val fileOut = FileOutputStream(wordFile)
             ourWordDoc.write(fileOut)

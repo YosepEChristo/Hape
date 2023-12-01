@@ -90,6 +90,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_nama_dosen"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -113,6 +114,7 @@
                     android:textSize="@dimen/_10sdp"
                     android:layout_marginStart="@dimen/_2sdp"/>
                 <EditText
+                    android:id="@+id/edt_mata_kuliah"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="text"
@@ -137,6 +139,7 @@
                     android:textSize="@dimen/_10sdp"
                     android:layout_marginStart="@dimen/_2sdp"/>
                 <EditText
+                    android:id="@+id/edt_nama_lengkap"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="text"
@@ -161,6 +164,7 @@
                     android:textSize="@dimen/_10sdp"
                     android:layout_marginStart="@dimen/_2sdp"/>
                 <EditText
+                    android:id="@+id/edt_nim"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="text"
@@ -185,6 +189,7 @@
                     android:textSize="@dimen/_10sdp"
                     android:layout_marginStart="@dimen/_2sdp"/>
                 <EditText
+                    android:id="@+id/edt_no_hp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="text"
@@ -210,6 +215,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_prodi_konsentrasi"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -235,6 +241,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_alasan_izin"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -260,10 +267,11 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_durasi_izin"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:textSize="@dimen/_10sdp" />
             </FrameLayout>
 
@@ -285,6 +293,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_tanggal_mulai"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -310,6 +319,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_tanggal_selesai"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -335,6 +345,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_tanggal_surat"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -360,6 +371,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_hari"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -385,6 +397,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_jam"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -418,6 +431,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/edt_ruang"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -438,14 +452,14 @@
 
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/btn_simpan_data"
                     android:layout_width="174dp"
                     android:layout_height="60dp"
                     android:layout_gravity="left"
                     android:text="Simpan" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btn_masukkan_data"
                     android:layout_width="174dp"
                     android:layout_height="60dp"
                     android:layout_gravity="right"
