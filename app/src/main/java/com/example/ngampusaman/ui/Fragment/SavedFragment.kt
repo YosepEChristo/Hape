@@ -26,13 +26,14 @@ class SavedFragment : Fragment() {
     ): View? {
         _binding = FragmentSavedBinding.inflate(inflater, container, false)
 
-        val suratIzinAdapter = SuratIzinTersimpanAdapter()
+        mSuratIzinViewModel = ViewModelProvider(this)[SuratIzinViewModel::class.java]
+
+        val suratIzinAdapter = SuratIzinTersimpanAdapter(mSuratIzinViewModel)
         binding.rvSaved.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = suratIzinAdapter
         }
 
-        mSuratIzinViewModel = ViewModelProvider(this)[SuratIzinViewModel::class.java]
         mSuratIzinViewModel.readAllData.observe(viewLifecycleOwner, Observer { suratIzin ->
             suratIzinAdapter.setDaftar(suratIzin)
         })

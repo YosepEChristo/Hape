@@ -55,14 +55,62 @@ class IzinFormActivity : AppCompatActivity() {
             binding.btnSimpanData.setOnClickListener {
                 perbaruiDatakeDatabase()
             }
+
+            binding.btnMasukkanData.setOnClickListener {
+                perbaruiDokumenKeDownload()
+            }
         } else {
             binding.btnSimpanData.setOnClickListener {
                 masukkanDatakeDatabase()
             }
-        }
 
-        binding.btnMasukkanData.setOnClickListener {
-            simpanDokumenKeDownload()
+            binding.btnMasukkanData.setOnClickListener {
+                simpanDokumenKeDownload()
+            }
+        }
+    }
+
+    private fun perbaruiDokumenKeDownload() {
+        val namaDosen = binding.edtNamaDosen.text.toString()
+        val matkul = binding.edtMataKuliah.text.toString()
+        val namaLengkap = binding.edtNamaLengkap.text.toString()
+        val nim = binding.edtNim.text.toString()
+        val noTelp = binding.edtNoHp.text.toString()
+        val prodi = binding.edtProdiKonsentrasi.text.toString()
+        val alasan = binding.edtAlasanIzin.text.toString()
+        val jumlahHari = binding.edtDurasiIzin.text.toString()
+        val tglAwal = binding.edtTanggalMulai.text.toString()
+        val tglAkhir = binding.edtTanggalSelesai.text.toString()
+        val tglSurat = binding.edtTanggalSurat.text.toString()
+        val hariTabel = binding.edtHari.text.toString()
+        val jamTabel = binding.edtJam.text.toString()
+        val ruangTabel = binding.edtRuang.text.toString()
+
+        if (cekMasukan(namaDosen, matkul, namaLengkap, nim,
+                noTelp, prodi, alasan, jumlahHari,
+                tglAwal, tglAkhir, tglSurat,
+                hariTabel, jamTabel, ruangTabel)) {
+            val daftarNama = listOf(namaDosen, matkul, namaLengkap, nim,
+                noTelp, prodi, alasan, jumlahHari,
+                tglAwal, tglAkhir, tglSurat,
+                hariTabel, jamTabel, ruangTabel)
+
+            val lokasi_download = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+            val suratIzinDocx = SuratIzinDocx(namaLengkap, filesDir, applicationContext, daftarNama)
+            suratIzinDocx.editDoc()
+            suratIzinDocx.saveDoc(lokasi_download)
+            Toast.makeText(applicationContext, "File $namaLengkap Tersimpan di $lokasi_download", Toast.LENGTH_SHORT).show()
+
+            val suratIzin = SuratIzin(0, namaDosen, matkul,
+                namaLengkap, nim, noTelp, prodi, alasan,
+                jumlahHari.toInt(), tglAwal, tglAkhir, tglSurat,
+                hariTabel, jamTabel, ruangTabel)
+            mSuratIzinViewModel.update(suratIzin)
+
+            Toast.makeText(applicationContext, "${namaLengkap} sukses diperbarui", Toast.LENGTH_SHORT).show()
+            finish()
+        } else {
+            Toast.makeText(applicationContext, "Tolong isi semua modul", Toast.LENGTH_SHORT).show()
         }
     }
 
